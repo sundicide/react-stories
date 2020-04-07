@@ -3,7 +3,7 @@ import MaterialTable from "material-table";
 import * as d3 from "d3";
 
 export default {
-  title: 'Material-Table'
+  title: 'Design System/Material-Table'
 };
 
 

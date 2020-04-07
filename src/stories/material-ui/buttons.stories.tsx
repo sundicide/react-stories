@@ -26,30 +26,8 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default {
-  title: 'Material-Ui'
+  title: 'Design System/Material-Ui'
 };
-
-export const buttons = () => {
-  const classes = useStyles();
-  return (
-    <div className={classes.root}>
-      <div className={classes.itemWrapper}>
-        <div className={classes.itemtitle}>Material UI</div>
-        <div className={classes.item}>
-          <div className={classes.subtitle}> Selection Color </div>
-          <div style={{backgroundColor: "rgb(253, 224, 234)"}}></div>
-        </div>
-      </div>
-      <div className={classes.itemWrapper}>
-        <div className={classes.itemtitle}>Material Table</div>
-        <div className={classes.item}>
-          <div className={classes.subtitle}> Selection Color </div>
-          <div style={{backgroundColor: "rgb(253, 224, 234)"}}></div>
-        </div>
-      </div>
-    </div>
-  )
-}
 
 export const buttonGroup = () => {
   const useStyles = makeStyles((theme) => ({

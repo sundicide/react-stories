@@ -3,7 +3,7 @@ import MaterialTable from "material-table";
 import { linkTo } from '@storybook/addon-links';
 
 export default {
-  title: 'Material-Table'
+  title: 'Design System/Material-Table'
 };
 
 export const BasicSelection = () => {

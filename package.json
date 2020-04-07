@@ -46,13 +46,18 @@
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-console": "^1.2.1",
+    "@storybook/addon-docs": "^5.3.18",
     "@storybook/addon-info": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
     "@storybook/addon-storysource": "^5.3.18",
     "@storybook/addons": "^5.3.18",
     "@storybook/preset-create-react-app": "^2.1.1",
     "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "markdown-loader": "^5.1.0",
     "react-docgen-typescript-loader": "^3.7.2",
+    "react-is": "^16.13.1",
+    "storybook-readme": "^5.0.8",
     "ts-loader": "^6.2.2"
   }
 }

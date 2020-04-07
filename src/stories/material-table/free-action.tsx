@@ -1,10 +1,8 @@
 import React from 'react';
 import MaterialTable from "material-table";
-import { linkTo } from '@storybook/addon-links';
-import * as d3 from "d3";
 
 export default {
-  title: 'Design System/Material-Table'
+  title: 'Material-Table'
 };
 
 export const CustomAction = () => {

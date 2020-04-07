@@ -24,11 +24,10 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default {
-  title: 'Colors'
+  title: 'Design System/Colors'
 };
 
 export const Colors = () => {
-  console.log("qwe")
   const classes = useStyles();
   return (
     <div className={classes.root}>
