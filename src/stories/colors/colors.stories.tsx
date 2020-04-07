@@ -17,6 +17,9 @@ const useStyles = makeStyles(theme => ({
   item: {
     display: "grid",
     gridTemplateColumns: "200px 200px"
+  },
+  subtitle: {
+    fontWeight: "bold"
   }
 }));
 
@@ -25,14 +28,15 @@ export default {
 };
 
 export const Colors = () => {
+  console.log("qwe")
   const classes = useStyles();
   return (
     <div className={classes.root}>
       <div className={classes.itemWrapper}>
         <div className={classes.itemtitle}>Material UI</div>
         <div className={classes.item}>
-          <div className={classes.subtitle}> Selection Color </div>
-          <div style={{backgroundColor: "rgb(253, 224, 234)"}}></div>
+          <div className={classes.subtitle}> Primary Color </div>
+          <div style={{backgroundColor: "#3f51b5"}}></div>
         </div>
       </div>
       <div className={classes.itemWrapper}>
